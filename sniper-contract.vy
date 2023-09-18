@@ -13,7 +13,7 @@ event USDBalances:
 
 
 @external
-def getUSDCBalances(addresses: address[100]) -> uint256:
+def getUSDCBalances(addresses: address[500]) -> uint256:
 
     
     # Loop through the addresses and get their USDC balances
