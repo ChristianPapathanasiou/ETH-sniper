@@ -2,7 +2,7 @@
  
 ETH sniper is a tool which generates ETH addresses and corresponding private keys starting from a starting position (index) all the way to an end index eg. create all private keys from 1 to 10,000,000. 
 
-ETH sniper works in conjunction with the Sniper smart contract which concurrently checks  100 addresses supplied by ETH sniper for USDC balances.
+ETH sniper works in conjunction with the Sniper smart contract which concurrently checks  500 addresses supplied by ETH sniper for USDC balances.
 
 Similar tools check each generated wallet sequentially using infura and this is very time consuming and does not scale.
 
